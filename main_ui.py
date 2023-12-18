@@ -39,6 +39,7 @@ class HospitalChatbotGUI(QMainWindow):
         self.answer_video_url = None
         self.play_video(self.sample_video_url)
 
+
     def audio_to_text(self):
         init_rec = sr.Recognizer()
         self.text_edit.setPlainText("Let's speak!!")
