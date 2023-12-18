@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget {
+    background-color: qlineargradient(spread: pad, x1: 0.091, y1: 0.101636, x2: 0.991379, y2: 0.977, stop: 0 rgba(30, 30, 40, 255), stop: 1 rgba(50, 50, 80, 255));
+}
+
+</string>
+   </property>
+   <widget class="QLabel" name="labelDashboard">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>262</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Dashboard</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>441</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="questionLayout"/>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 15pt &quot;Waree&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Questions and Intents</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="intentCombo">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>126</y>
+      <width>230</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
